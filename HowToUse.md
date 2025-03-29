@@ -102,7 +102,7 @@ If you see the `ssserver` process running, Shadowsocks is successfully set up.
 Install Shadowsocks on your local client (Windows, macOS, Android) and configure it with the following settings:
 - **Server Address**: Your server's public IP
 - **Port**: 8388
-- **Password**: 123456
+- **Password**: 123456(you can change this by modifying the .json file in the server using the vim command)
 - **Encryption Method**: aes-256-cfb
 
 ---
