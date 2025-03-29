@@ -140,7 +140,7 @@ Install Shadowsocks on your local client (Windows, macOS, Android) and configure
 
 ---
 
-## 9. Uninstall Shadowsocks
+## 9. Uninstall Shadowsocks and shadowsocks.json
 To remove Shadowsocks completely:
 ```bash
 pip3 uninstall shadowsocks
