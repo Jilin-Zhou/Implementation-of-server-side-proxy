@@ -57,7 +57,7 @@ The script automatically generates the configuration file at `/etc/shadowsocks.j
     "server_port": 8388,
     "local_address": "127.0.0.1",
     "local_port": 1080,
-    "password": "123456",
+    "password": "123456"(you can change this by modifying the .json file in the server using the vim command),
     "timeout": 300,
     "method": "aes-256-cfb",
     "fast_open": false
