@@ -57,13 +57,13 @@ The script automatically generates the configuration file at `/etc/shadowsocks.j
     "server_port": 8388,
     "local_address": "127.0.0.1",
     "local_port": 1080,
-    "password": "123456"(you can change this by modifying the .json file in the server using the vim command),
+    "password": "123456",
     "timeout": 300,
     "method": "aes-256-cfb",
     "fast_open": false
 }
 ```
-To modify the configuration, edit the file:
+To modify the configuration(such as "password"), edit the file:
 ```bash
 vim /etc/shadowsocks.json
 ```
@@ -103,7 +103,7 @@ If you see the `ssserver` process running, Shadowsocks is successfully set up.
 Install Shadowsocks on your local client (Windows, macOS, Android) and configure it with the following settings:
 - **Server Address**: Your server's public IP
 - **Port**: 8388
-- **Password**: 123456(you can change this by modifying the .json file in the server using the vim command)
+- **Password**: 123456
 - **Encryption Method**: aes-256-cfb
 
 ---
