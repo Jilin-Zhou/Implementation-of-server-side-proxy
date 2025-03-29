@@ -11,7 +11,6 @@ pip3 install --upgrade pip
 
 pip3 install shadowsocks
 
-# You can change "password" to your own preferred password.
 cat > /etc/shadowsocks.json <<EOF
 {
     "server": "0.0.0.0",
